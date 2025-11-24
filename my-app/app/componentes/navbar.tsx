@@ -12,9 +12,9 @@ export default function NavBar() {
   const path = usePathname();
 
   const links: LinkItem[] = [
-    { href: "/", label: "Inicio" },
-    { href: "/pagina", label: "Algo" },
-    { href: "/variables", label: "Variables" },
+    { href: "/", label: "Mensajes" },
+    { href: "/pagina", label: "Motivacion" },
+    { href: "/variables", label: "Reacciones" },
   ];
 
   return (
